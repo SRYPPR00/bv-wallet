@@ -217,7 +217,7 @@ function get_contacts($spendKey) {
   $contacts = Array();
   $arr = Array();
   while ($arr = $result->fetchArray()) {
-    $contacts[] = $arr;
+    $contacts[] = $arr;2d51009a89b674c4394b34e9f766df38
   }
   return $contacts;
 }
